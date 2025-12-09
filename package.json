@@ -2,12 +2,14 @@
   "name": "@x1a0ma17x/zeppos-reactive",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "src/index.ts",
   "directories": {
     "example": "example"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "build:watch": "tsc --watch"
   },
   "repository": {
     "type": "git",
@@ -18,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/XiaomaiTX/zeppos-reactive/issues"
   },
-  "homepage": "https://github.com/XiaomaiTX/zeppos-reactive#readme"
+  "homepage": "https://github.com/XiaomaiTX/zeppos-reactive#readme",
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
 }
