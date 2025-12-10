@@ -4,20 +4,19 @@
 ![minified size](https://img.shields.io/bundlephobia/min/@x1a0ma17x/zeppos-reactive)
 ![license](https://img.shields.io/npm/l/@x1a0ma17x/zeppos-reactive)
 
-[中文文档](./README_zh-CN.md)
+一个极轻量、适用于性能受限 js 环境的响应式系统。
 
-An extremely lightweight reactive system designed for performance-constrained JavaScript environments.
+- ✅ 无 effect 栈、无 scheduler 的极简实现
 
-- ✅ Minimal implementation without effect stacks or schedulers
-- ✅ Suitable for constrained runtime environments like ZeppOS, IoT, and Mini Programs
+- ✅ 适合 ZeppOS、IoT、小程序等受限运行环境
 
-## 📦 Installation
+## 📦 安装
 
 ```bash
 pnpm add @x1a0ma17x/zeppos-reactive
 ```
 
-## 🚀 Quick Start
+## 🚀 快速开始
 
 ```js
 import { reactive, effect, computed } from "@x1a0ma17x/zeppos-reactive";
@@ -30,5 +29,5 @@ effect(() => {
     console.log("count changed:", state.count);
 });
 
-state.count++; // Automatically triggers the effect
+state.count++; // 自动触发 effect
 ```
