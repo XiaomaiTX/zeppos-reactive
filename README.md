@@ -32,3 +32,23 @@ effect(() => {
 
 state.count++; // Automatically triggers the effect
 ```
+
+## Developer Guide
+
+Install dependencies:
+
+```bash
+pnpm install
+```
+
+build:
+
+```bash
+pnpm build
+```
+
+build and watch:
+
+```bash
+pnpm build:watch
+```
