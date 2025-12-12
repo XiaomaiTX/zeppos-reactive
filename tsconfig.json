@@ -29,7 +29,7 @@
     "module": "esnext" /* Specify what module code is generated. */,
     "rootDir": "./src",                                  /* Specify the root folder within your source files. */
     "moduleResolution": "node" /* Specify how TypeScript looks up a file from a given module specifier. */,
-    "ignoreDeprecations": "6.0",
+    "ignoreDeprecations": "5.0",
     // "paths": {},                                      /* Specify a set of entries that re-map imports to additional lookup locations. */
     // "typeRoots": [],                                  /* Specify multiple folders that act like './node_modules/@types'. */
     // "types": [],                                      /* Specify type package names to be included without being referenced in a source file. */

@@ -31,3 +31,23 @@ effect(() => {
 
 state.count++; // 自动触发 effect
 ```
+
+## 开发指南
+
+安装依赖
+
+```bash
+pnpm install
+```
+
+构建:
+
+```bash
+pnpm build
+```
+
+构建并监听文件变化:
+
+```bash
+pnpm build:watch
+```
