@@ -1,7 +1,7 @@
 import * as hmUI from "@zos/ui";
 import { getText } from "@zos/i18n";
 
-import { reactive, effect } from "./ZeppReactive";
+import { reactive, effect } from "@x1a0ma17x/zeppos-reactive";
 export class Text {
     constructor(config = {}) {
         this._state = reactive({
