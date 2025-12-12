@@ -20,7 +20,7 @@ pnpm add @x1a0ma17x/zeppos-reactive
 ## 🚀 Quick Start
 
 ```js
-import { reactive, effect, computed } from "@x1a0ma17x/zeppos-reactive";
+import { reactive, effect, computed, memo, merge, mergeProps, watch } from "@x1a0ma17x/zeppos-reactive";
 
 const state = reactive({
     count: 1,
